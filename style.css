@@ -1,0 +1,102 @@
+
+body {
+  background-color: #bde0fe; 
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+nav {
+  text-align: center;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.hero-about,
+.hero-hobbies {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-about h1,
+.hero-hobbies h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.container p {
+  max-width: 500px;
+  height: auto;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.hobbies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hobby-box {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.hobby-box img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.hobby-box p {
+  font-size: 14px;
+  height: 180px; 
+  overflow: hidden; 
+  text-align: justify;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
