@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Hobbies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero-hobbies">
+    <h1>MY HOBBIES</h1>
+  </section>
+
+  <section class="hobbies">
+
+    <div class="hobby-box">
+      
+      <img src="https://raw.githubusercontent.com/chelseatabarnilla877-collab/Personal-Website-/f6d399693664b0748702dcccb9bdfa16c5278713/09e48bc891eb07422dada7dd25f2370f.jpg" alt="Cooking">
+      
+      <p>Cooking has always been more than just a hobby for me. It’s a true passion that fills my heart with creativity and joy. From experimenting with new recipes to perfecting classic dishes, I love the process of transforming simple ingredients into something delicious and memorable. Cooking allows me to express myself, challenge my skills, and share happiness with the people around me through every bite. Each meal I make is not just food; it’s a story, and i genuinely love it</p>
+    </div>
+
+    <div class="hobby-box">
+      
+      <img src="https://raw.githubusercontent.com/chelseatabarnilla877-collab/Personal-Website-/fb935e9e33a30cd4cd4ad617e8133bb5383405a4/288c3777f6e07f3db024519dd02af352.jpg" alt="Volleyball">
+      
+      <p>Volleyball is more than just a game for me. It is a way to challenge myself, stay active, and have fun with friends and teammates. I love the feeling of diving for the ball, spiking, and working together as a team to score points. Every match teaches me focus, perseverance, and quick thinking, while every practice helps me improve my skills and coordination. Volleyball is not just a sport; it is a source of energy, excitement, and unforgettable moments that I treasure.</p>
+    </div>
+
+    <div class="hobby-box">
+      
+      <img src="https://raw.githubusercontent.com/chelseatabarnilla877-collab/Personal-Website-/9ba5da0ce5d83505019a8849530e2afe56d1d65b/e0c581b0d4201897f886261f23026972.jpg" alt="Singing">
+      
+      <p>Singing is one of my greatest passions. It allows me to express my emotions, tell stories, and connect with others in a way words alone cannot. I love exploring different songs and styles, challenging my voice, and improving with every practice. Performing or just singing for myself brings me joy, confidence, and a sense of freedom. Singing is not just a hobby; it is a part of who I am and a way for me to share my heart with the world.</p>
+    </div>
+
+    <div class="hobby-box">
+      
+      <img src="https://raw.githubusercontent.com/chelseatabarnilla877-collab/Personal-Website-/671483e3f3c60143db2bbd5ca5e1df4692e1cbb6/8433beaa300d9f30df041c4deaefab79.jpg" alt="Dancing">
+      
+      <p>Dancing is a passion that fills me with energy and joy. It allows me to express myself, tell stories through movement, and connect with the rhythm of the music. I love learning new steps, practicing routines, and feeling the flow as my body moves. Dancing challenges me to be creative, confident, and disciplined, while also giving me moments of pure happiness. It is more than just a hobby; it is a way for me to celebrate life and share my passion with others.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2026 CHELSEA MAE M. TABARNILLA</p>
+  </footer>
+
+  <script>
+    const boxes = document.querySelectorAll(".hobby-box");
+
+    boxes.forEach(box => {
+      box.addEventListener("click", () => {
+        box.style.backgroundColor = "#a0c4ff"; // light blue flash
+        setTimeout(() => {
+          box.style.backgroundColor = "#bde0fe"; // balik sa dati
+        }, 500);
+      });
+    });
+  </script>
+
+</body>
+</html>
